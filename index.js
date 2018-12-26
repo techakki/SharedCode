@@ -1,9 +1,9 @@
-import reducer from './reducers';
+import reducer from './src/reducers';
 import {
     addPlace,
     removePlace,
     removeAll
-} from './actions';
+} from './src/actions';
 
 export {
     reducer,
