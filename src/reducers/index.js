@@ -14,17 +14,14 @@ function removeById(state, id) {
 export default function reducer(state = [], action) {
     switch(action.type) {
         case ADD_PLACE:
-            return {
+            return [
                 ...state,
                 addPlace(place)
-            };
+            ];
         case REMOVE_PLACE:
             return removeById(state, id);
         case REMOVE_ALL:
-            return {
-                ...state,
-                places: []
-            };
+            return [];
         default:
             return state;
     };
