@@ -16,10 +16,7 @@ export default function reducer(state = [], action) {
         case ADD_PLACE:
             return {
                 ...state,
-                places: [
-                    ...state.places,
-                    addPlace(place)
-                ]
+                addPlace(place)
             };
         case REMOVE_PLACE:
             return removeById(state, id);
