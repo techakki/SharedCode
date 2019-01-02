@@ -5,9 +5,13 @@ import {
     removeAll
 } from './src/state_management/actions';
 
-export {
-    reducer,
+const actions = {
     addPlace,
     removePlace,
     removeAll
+};
+
+export {
+    reducer,
+    actions
 };
