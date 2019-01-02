@@ -8,7 +8,5 @@
   },
   "author": "Akshay Sharma",
   "license": "ISC",
-  "dependencies": {
-    "redux": "^4.0.1"
-  }
+  "dependencies": {}
 }
